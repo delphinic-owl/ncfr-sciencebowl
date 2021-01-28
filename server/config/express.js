@@ -11,6 +11,7 @@ const path = require('path'),
 	mongoSanitize = require('express-mongo-sanitize'),
 	userRouter = require('../routes/userRouter'),
 	globalErrorHandler = require('../controllers/errorController');
+
 module.exports.init = () => {
 	mongoose
 		.connect(process.env.DB_URI, {

@@ -46,7 +46,8 @@
 		"should": "^13.2.3",
 		"supertest": "^4.0.2",
 		"validator": "^13.1.17",
-		"xss-clean": "^0.1.1"
+		"xss-clean": "^0.1.1",
+		"yarn": "^1.22.10"
 	},
 	"homepage": "https://github.com/UFWebApps/React_Template_Repo#readme"
 }
