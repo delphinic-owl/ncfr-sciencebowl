@@ -1,47 +1,73 @@
 <!-- @format -->
 
-## _**PLEASE READ THIS TO COMPLETION BEFORE ASKING ANY QUESTIONS!**_
+## _** North Central Florida Regional Science Bowl Interface**_
 
-### _**IMPORTANT NOTES**_ -
+### _**IMPORTANT**_ -
 
-This project does not have a mongoDB connection setup.
+- This project is an individual, personal project that is not officially sanctioned by the National Science Bowl. It may serve to preface a more formal project undertaken by UF students.
 
-- local development: create a config file (make sure to name it config.js) in the config folder, which exports your db.uri connection. An example is provided, config/config.example.js. This file will be ignored by git so your db credentials will be kept safe when the app is deployed.
+- This project simply aims to fill in the gaps in the mediation of the North Central Florida regional competition, conducted at the University of Florida, which have been unearthed over the years by organizers. This goal is to be achived by developing an interface for volunteers, participants, coaches, and competition organizers that streamlines the competition from registration and preparation to the day of the competition.
 
-## Getting Started
+- This project was bootstrapped from the following [template](https://github.com/rennemannd/MERN-Template). See this template for instructions on start up.
 
-This repository aims to assist you in beginning work on a MERN stack application for heroku deployment with a solid file structure as a foundation. To get started make a copy of this template repo for your project teams by clicking the green "Use this template" button above.
+## Personal Goals
 
-Since this project will hold both the client application and the server application there will be node modules in two different places. First run `npm install` from the root. After this you will run `npm run-script install-all` from the root. From now on run this command anytime you want to install all modules again. This is a script we have defined in package.json. Alternatively your group may choose to simplify this process by using yarn workspaces as specified [here](https://yarnpkg.com/lang/en/docs/workspaces/).
+1. Develop a stable grounding and acquaintence with developing a web application, essentially from the ground up.
 
-This app can be deployed directly to heroku since there is a script defined in package.json which will automatically handle building and deploying the app. For more information on deploying to heroku reference the extra resources at the bottom of this file.
+- Do so in a holistic, calculated fashion, in as Agile a way as is possible, without a client.
+- In effect, learn to write, design, and structure code in a clean and professional way that is readily understandable and conducive to onboarding.
+
+2. Develop a strong ability to do research into the various technologies out there and learn on my own, in a self-motivated fashion.
+
+3. Get further acquainted and proficient with the MERN stack. Along the way, pick up knowledge about other frameworks, languages, tech stacks, and APIs that may offer a more suitable approach for development of a formal version of this app alongside a team of other students, later this year.
+
+4. Get relatively proficient in cybersecurity and ensuring proper encryption and all that, such that the formal edvelopment of this app (version 2) can actually be deployed to the target audience, come fall.
+
+## Design/Approach Goals
+
+1. Start the project with [UML] diagrams:
+
+   1. Class Diagrams
+   2. User Stories and User Map
+   3. Product Backlog
+   4. Sequence Diagrams
+   5. Wireframes
+
+2. Start and stick to a Kanban board (Trello)
+
+3. Make use of and play around with established design patterns which I am studying in CIS4930: Design Patterns - Object Oriented Programming. Also, try to look out for patterns I'm unintentionally using.
+
+4. Plan out my own version of Agile Sprints.
+
+## Feature Goals (for version 1 (personal) or version 2 (team))
+
+- Roles for: [Organizers, Volunteers, Competitors, and Coaches ]
+- Interactive, live bracket system that models the competition, the day of, akin to Challonge.
+- Volunteer training/test (?)
+- Online, live mock/practice tournaments (?)
+- Resources for participants including study material, practices, logistics and day-of planning
+- Chat Systems (?)
+- College/STEM advice from volunteers (?)
 
 ## Available Scripts
 
-Please note that any time the server is run in these scripts `nodemon` is used in place of `node` for easier development. If you are interested in how this works follow the nodemon In the project directory, you can run:
+### 'npm run install-all'
 
-### `yarn workspace server dev`
+Install all dependencies for both server and client.
+
+### `npm run dev`
 
 Runs both the client app and the server app in development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view the client in the browser.
 
-### `yarn workspace client start`
-
-Runs just the client app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view the client in the browser.
-
-### `yarn workspace server start`
+### `npm run server`
 
 Runs just the server in development mode.<br>
 
-### `yarn workspace server build`
+### `npm run client`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-If deploying to heroku this does not need to be run since it is handled by the heroku-postbuild script<br>
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Runs just the client app in development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view the client in the browser.
 
 ## File structure
 
@@ -70,11 +96,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 #### `.gitignore` - Tells git which files to ignore
 
 #### `README` - This file!
-
-## Learn More
-
-To learn how to setup a local MongoDB instance for testing, check out how to [connect to MongoDB](https://docs.mongodb.com/guides/server/drivers/).
-
-To learn how to deploy a full-stack web app to heroku, check out [this great guide](https://daveceddia.com/deploy-react-express-app-heroku/).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
