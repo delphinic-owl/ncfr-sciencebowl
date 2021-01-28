@@ -1,12 +1,12 @@
 <!-- @format -->
 
-## _** North Central Florida Regional Science Bowl Interface**_
+## _** Interface for the North Central Florida Regional Science Bowl **_
 
 ### _**IMPORTANT**_ -
 
 - This project is an individual, personal project that is not officially sanctioned by the National Science Bowl. It may serve to preface a more formal project undertaken by UF students.
 
-- This project simply aims to fill in the gaps in the mediation of the North Central Florida regional competition, conducted at the University of Florida, which have been unearthed over the years by organizers. This goal is to be achived by developing an interface for volunteers, participants, coaches, and competition organizers that streamlines the competition from registration and preparation to the day of the competition.
+- This project simply aims to fill in the gaps in the mediation of the North Central Florida regional competition, conducted at the University of Florida, which have been unearthed over the years by organizers. This goal is to be achieved by developing an interface for volunteers, participants, coaches, and competition organizers that streamlines the competition from registration and preparation to the day of the competition.
 
 - This project was bootstrapped from the following [template](https://github.com/rennemannd/MERN-Template). See this template for instructions on start up.
 
