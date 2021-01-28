@@ -27,7 +27,7 @@
 
 1. Start the project with [UML] diagrams:
 
-   1. Class Diagrams
+   1. Class/ER Diagrams
    2. User Stories and User Map
    3. Product Backlog
    4. Sequence Diagrams
